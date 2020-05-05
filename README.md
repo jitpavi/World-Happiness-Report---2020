@@ -1,9 +1,9 @@
-# Project Name -  World-Happiness-Report-2020 
+# Project Name -  World-Happiness-Report-2020 - Data Analysis with Python
 #### -- Project Status: [Active]
 Still exploring the correlation between different variable impacting the effective Happiness Score.
 
 ## Project Intro/Objective:
-The purpose of this project is to produce a combined bar chart for the top 10 states of India currently with the most affected cases of Covid-19 where each bar is displaying Total no of covid cases, Total no. of cured cases and Total no. of Deaths respectively for each states.
+The purpose of this project is to understand the correlation between 6 input variables and how it largely impacts the decision of producing a Happiness Score for each Country in the world. 
 
 ### Methods Used:
 * Web Scraping
@@ -38,19 +38,24 @@ The purpose of this project is to produce a combined bar chart for the top 10 st
   * train_test_split
 
 ### Workflow:
-1. Using request module download the data from the govt. website.
-2. Convert the response data into JSON obejct.
-3. Create a Dataframe using Pandas from the JSON object with columns Death,Total Confirmed cases and Cured/Discharged/Migrated.
-4. Sort the dataframe by the column name Total Confirmed cases in descending order.
-5. Create a fig subplot and create 3 ax objects where each representing a bar chart for the columns  Total no of covid cases, Total no. of cured cases and Total no. of Deaths respectively
-6. Enable annotation on each bar denoting the number of cases.
+##### 1. Using web scraping method find the url which contains the WHR report.
+##### 2. Convert the extracted report form the URL into Dataframe.
+##### 3. Perform Data Wrangling by removing irrelevant columns and renaming the important column names in a simplified form
+##### 4. Perform Spearman Correlation and understand the correlation of six different variables by plotting the Seaborn Heatmap
+   As you can observe that variables like 'GDP per Capita', 'Social support' and 'Health' are strongly correlated with Score while 'Freedom of life' is having good correlation with the Score.
+   
+   ![WHR - HeatMap Plot](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-HeatMap.jpg)
+
+5. To get a more conclusive evidence we will plot Linear regression using each of the 6 variables with the Happiness Score. 
+   This exactly supportst the figure we received in the heatmap confirming the strong correlation between 'GDP per Capita', 'Social support' and 'Health' and score
+   ![WHR - Regression Plot](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-RegressionPlot.jpg)
+
+ 6. To get a more conclusive evidence we will plot Multilinear regression over the trained data and test data and based on the result   which will be used an input to plot Distribution Plot to verify if the Predicted values matches with the actual values:
+    As you can obser
+
 7. Display the combine bar charts for the top 10 states with the most affected cases.
 
 ## Expected Output:
-
-![WHR-BoxPlat image](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/WHR-BoxPlot.jpg)
-
-* [Covid-19 Statistics.jpg](https://github.com/jitpavi/Covid-19-Cases-in-States-of-India/blob/master/Covid-19%20Statistics.jpg)
 
 ## Featured Notebooks/Analysis/Deliverables:
 

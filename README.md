@@ -42,18 +42,24 @@ The purpose of this project is to understand the correlation between 6 input var
 ##### 2. Convert the extracted report form the URL into Dataframe.
 ##### 3. Perform Data Wrangling by removing irrelevant columns and renaming the important column names in a simplified form
 ##### 4. Perform Spearman Correlation and understand the correlation of six different variables by plotting the Seaborn Heatmap
-   As you can observe that variables like 'GDP per Capita', 'Social support' and 'Health' are strongly correlated with Score while 'Freedom of life' is having good correlation with the Score.
+   ***As you can observe that variables like 'GDP per Capita', 'Social support' and 'Health' are strongly correlated with Score while 'Freedom of life' is having good correlation with the Score.
    
    ![WHR - HeatMap Plot](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-HeatMap.jpg)
 
-5. To get a more conclusive evidence we will plot Linear regression using each of the 6 variables with the Happiness Score. 
+***5. To get a more conclusive evidence we will plot Linear regression using each of the 6 variables with the Happiness Score. 
    This exactly supportst the figure we received in the heatmap confirming the strong correlation between 'GDP per Capita', 'Social support' and 'Health' and score
    ![WHR - Regression Plot](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-RegressionPlot.jpg)
 
- 6. To get a more conclusive evidence we will plot Multilinear regression over the trained data and test data and based on the result   which will be used an input to plot Distribution Plot to verify if the Predicted values matches with the actual values:
-    As you can obser
+ ***6. To get a more conclusive evidence we will plot Multilinear regression over the trained data and test data and based on the result   which will be used an input to plot Distribution Plot to verify if the Predicted values matches with the actual values:
+    As you can observe
+    
+    ![WHR - Predicted MultiLinear Regression Plot](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-DistPlot-Predicted%20Multi-Linear%20Score.jpg)
 
-7. Display the combine bar charts for the top 10 states with the most affected cases.
+    ![WHR - Predicted Train Score](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-DistPlot-Predicted%20Train%20Score.jpg)
+
+    ![WHR - Predicted Test Score](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-DistPlot-Predicted%20Test%20Score.jpg)
+
+***7. Display the combine bar charts for the top 10 states with the most affected cases.
 
 ## Expected Output:
 

@@ -48,6 +48,8 @@ The purpose of this project is to produce a combined bar chart for the top 10 st
 
 ## Expected Output:
 
+![WHR-BoxPlat image](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/WHR-BoxPlot.jpg)
+
 * [Covid-19 Statistics.jpg](https://github.com/jitpavi/Covid-19-Cases-in-States-of-India/blob/master/Covid-19%20Statistics.jpg)
 
 ## Featured Notebooks/Analysis/Deliverables:

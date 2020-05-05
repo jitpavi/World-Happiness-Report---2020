@@ -51,9 +51,15 @@ The purpose of this project is to understand the correlation between 6 input var
    
    ![WHR - Regression Plot](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-RegressionPlot.jpg)
 
-#### 6. To get a more conclusive evidence we will plot Multilinear regression over the trained data and test data and based on the      result which will be used an input to plot Distribution Plot to verify if the Predicted values matches with the actual values:
+#### 6. To get a more conclusive evidence we will plot Multilinear regression over the trained data and test data and based on the      result which will be used an input to plot Distribution Plot to verify if the Predicted values matches with the actual values:         **_As you can oberve the Predicted Score and Actual Score in each of the Distribution Plot doesn't exactly matches which makes us believe that the input variables we have factor in for deciding Happiness score are not sufficient_**
     
-    
+![WHR - DistPlot-MultiLinear](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-DistPlot-Predicted%20Multi-Linear%20Score.jpg)
+
+![WHR - DistPlot- Trained Data](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-DistPlot-Predicted%20Multi-Linear%20Score.jpg)
+
+![WHR - DistPlot - Test Data](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-DistPlot-Predicted%20Multi-Linear%20Score.jpg)
+   
+   
 ## Expected Output:
 To some extent we have managed to derive a conclusive evidence that variables like 'GDP per Capita', 'Social support' and 'Health' have a strong correlation in deciding the effective Happiness score in each country however there is still a need to factor in more number of input variables in deciding the Happiness Score effectively.
 

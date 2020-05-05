@@ -42,20 +42,18 @@ The purpose of this project is to understand the correlation between 6 input var
 #### 2. Convert the extracted report form the URL into Dataframe.
 #### 3. Perform Data Wrangling by removing irrelevant columns and renaming the important column names in a simplified form
 #### 4. Perform Spearman Correlation and understand the correlation of six different variables by plotting the Seaborn Heatmap
-   As you can observe that variables like 'GDP per Capita', 'Social support' and 'Health' are strongly correlated with Score while 'Freedom of life' is having good correlation with the Score.
+   **_As you can observe that variables like 'GDP per Capita', 'Social support' and 'Health' are strongly correlated with Score while 'Freedom of life' is having good correlation with the Score._**
    
    ![WHR - HeatMap Plot](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-HeatMap.jpg)
 
 #### 5. To get a more conclusive evidence we will plot Linear regression using each of the 6 variables with the Happiness Score. 
-   This exactly supports the figure which we plotted in the heatmap confirming the strong correlation between input variables 'GDP per Capita', 'Social support','Health' and 'Happiness Score'
+   **_This exactly supports the figure which we plotted in the heatmap confirming the strong correlation between input variables 'GDP per Capita', 'Social support','Health' and 'Happiness Score'_**
    
    ![WHR - Regression Plot](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-RegressionPlot.jpg)
 
 #### 6. To get a more conclusive evidence we will plot Multilinear regression over the trained data and test data and based on the      result which will be used an input to plot Distribution Plot to verify if the Predicted values matches with the actual values:
-    As you can observe Predicted values not exactly matches with the actual score over the 3 different plots
     
-    ![WHR - Predicted MultiLinear Regression Plot](https://github.com/jitpavi/World-Happiness-Report---2020/blob/master/Output%20Images/WHR-DistPlot-Predicted%20Multi-Linear%20Score.jpg)
-
+    
 ## Expected Output:
 To some extent we have managed to derive a conclusive evidence that variables like 'GDP per Capita', 'Social support' and 'Health' have a strong correlation in deciding the effective Happiness score in each country however there is still a need to factor in more number of input variables in deciding the Happiness Score effectively.
 
